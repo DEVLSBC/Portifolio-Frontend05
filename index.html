@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/style.css" rel="stylesheet">
+	<script src="script/script.js" defer></script>
+	<link rel="icon" href="imagens/LOGO.jpg">
+    <title>Atalhos do setor</title>
+</head>
+<body>
+	<header>
+		<!-- Cabeçalho da página, contendo imagem e título -->
+		<section>
+			<div id="head_top">
+				<div>
+					<img class="logo_head" src="./imagens/LOGO.jpg" alt="Logo">
+				</div>
+				<div class="mes">
+					<!-- Imagem precisa ter 200px de largura por 150px altura -->
+					<img  src="./imagens/setembroamarelo.png" alt="Mês de apoio">
+				</div>
+				<div>
+					<h1><br>Menu Atalhos</h1>
+				</div>
+			</div>
+		</section>
+		
+		<hr>
+
+		<!-- Select para escolher o setor -->
+		<nav>
+			<div class="setor">
+				<p>-- Escolha seu setor de trabalho --</p>
+				<select id="setor" onchange="filtrarSetor()">
+					<option value="default">-- Setor --</option>
+					<option value="option1">option1</option>
+					<option value="option2">option2</option>
+					<option value="option3">option3</option>
+					<option value="option4">option4</option>
+					<option value="option5">option5</option>
+				</select>
+			</div>
+		</nav>
+		
+
+		<hr>
+
+	</header>
+
+	<main>
+		<!-- Caixa contendo os botões com os links -->
+		<div class="box_link">
+			<!-- Links padrões -->
+			<a id="optiondefault" href="#" target="_blank" ><button class="custom-btn btn-1" >Default1</button></a>
+			<a id="optiondefault" href="#" target="_blank" ><button class="custom-btn btn-1" >Default2</button></a>
+			<a id="optiondefault" href="#" target="_blank" ><button class="custom-btn btn-1" >Default3</button></a>
+			<!-- Links específicos para Setor 1 -->
+			<a id="option1" href="#" target="_blank" ><button class="custom-btn btn-1" >Setor 1</button></a>
+			<a id="option1" href="#" target="_blank" ><button class="custom-btn btn-1" >Setor 1</button></a>
+			<!-- Links específicos para Setor 2 -->
+			<a id="option2" href="#" target="_blank" ><button class="custom-btn btn-1" >Setor 2</button></a>
+			<a id="option2" href="#" target="_blank" ><button class="custom-btn btn-1" >Setor 2</button></a>
+			<!-- Links específicos para Setor 3 -->
+			<a id="option3" href="#" target="_blank" ><button class="custom-btn btn-1" >Setor 3</button></a>
+			<a id="option3" href="#" target="_blank" ><button class="custom-btn btn-1" >Setor 3</button></a>
+			<!-- Links específicos para Setor 3 -->
+			<a id="option4" href="#" target="_blank" ><button class="custom-btn btn-1" >Setor 4</button></a>
+			<a id="option4" href="#" target="_blank" ><button class="custom-btn btn-1" >Setor 4</button></a>
+			<!-- Links específicos para Setor 3 -->
+			<a id="option5" href="#" target="_blank" ><button class="custom-btn btn-1" >Setor 5</button></a>
+			<a id="option5" href="#" target="_blank" ><button class="custom-btn btn-1" >Setor 5</button></a>
+		</div>
+
+	</main>
+	
+	<!-- Rodape da página -->
+	<footer>
+		<div>
+			<hr>
+			<p class="sup">SITE NAME</p>
+			<p>--- COPYRIGHT ---</p>
+		</div>
+	</footer>		
+
+</body>
+</html>
